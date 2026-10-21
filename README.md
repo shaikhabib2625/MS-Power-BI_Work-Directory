@@ -1,41 +1,40 @@
-# MS-Power-BI_Work-Directory
-Comprehensive repository containing Power BI sample reports, DAX scripts, custom theme JSON schemas, service samples, performance analyzer traces, and monthly blog resources.
 
-# 📊 Power BI Desktop & Service Samples
+# Contributing
 
-Welcome to the Power BI Desktop & Service Samples repository! This repository serves as a centralized hub for sample reports, themes, DAX measures, item schemas, and templates across various Power BI development scenarios.
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
----
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
 
-## 📂 Repository Structure
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-The repository is organized into the following directories and configuration files:
+## Data/Telemetry
 
-```text
-├── .gitignore                          # Standard git ignore file
-├── LICENSE                             # Open-source license terms
-├── README.md                           # Main documentation file
-├── SECURITY.md                         # Security policies and reporting guidelines
-│
-├── 🎨 Themes & Customization
-│   ├── Custom Themes                   # Pre-packaged Power BI report themes
-│   └── Report Theme JSON Schema        # Official JSON schemas for custom theme development
-│
-├── 📊 Sample Reports & Data
-│   ├── Sample Reports                  # General Power BI (.pbix) sample reports
-│   ├── AdventureWorks Sales Sample     # Enterprise sales sample dataset and reports
-│   ├── Monthly Desktop Blog Samples    # Monthly release demonstration files
-│   └── 2026 Power BI Samples Revamp    # Updated modern sample report suite
-│
-├── ☁️ Service & Cloud Samples
-│   ├── powerbi-service-samples        # Power BI Service integration samples
-│   ├── new-power-bi-service-samples    # Updated Power BI Service feature samples
-│   └── item-schemas                    # JSON/YAML item schema definitions for Microsoft Fabric / Power BI
-│
-├── 🛠️ Utilities & Optimization
-│   ├── DAX                             # DAX calculations, patterns, and helper functions
-│   ├── Performance Analyzer            # Performance trace files and optimization benchmarks
-│   └── Power BI Visuals report          # Custom visual testing and demonstration reports
-│
-└── 🖼️ Assets
-    └── images                          # Screenshots, diagrams, and documentation assets
+This project collects usage data and sends it to Microsoft to help improve our products and services. Read our [privacy statement](http://go.microsoft.com/fwlink/?LinkId=521839) to learn more.
+
+### Disable telemetry collection within Power BI Desktop
+
+Disable telemetry, within Power BI Desktop, do the following.
+
+1. Select **File** > **Options and settings** > **Options**.
+
+2. Within the **Options** dialog, select **Usage Data** and then uncheck **Help improve Power BI Desktop by sending usage information to Microsoft**.
+
+3. Select **Ok**.
+
+## Monthly blog samples
+
+Within the *Monthly Desktop Blog Samples* folder, you will find the sample PBIX files used that go along with the monthly blog/video updates.
+
+## Report samples
+
+Within the *Sample Reports* folder, you will find different report samples that can help you explore Power BI.
+
+## Report theme JSON schema
+
+Within the *Report Theme JSON Schema* folder, you will find [JSON schemas](http://json-schema.org) that specify valid properties to be customized in a Power BI report.  This schema can be used in external application development or as a direct reference `"$schema"` within your custom theme JSON files for validation.  More information [in the folder's README.md file](/Report%20Theme%20JSON%20Schema/README.md).
